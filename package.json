@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Paul Javaloyes <pjavaloy@emeal.nttdata.com>",
+  "author": "Paul Javaloyes <pauljavaloyesdev@gmail.com>",
   "license": "MIT",
   "type": "module",
   "devDependencies": {
