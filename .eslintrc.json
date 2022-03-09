@@ -1,21 +1,15 @@
 {
     "env": {
-        "browser": true,
-        "commonjs": true,
+        "node": true,
         "es2021": true
     },
     "extends": [
-        "airbnb-base"
+        "standard"
     ],
     "parserOptions": {
-        "ecmaVersion": "latest"
+        "ecmaVersion": "latest",
+        "sourceType": "module"
     },
-    "eslint linebreak-style": [1, "windows"],
     "rules": {
-        "consistent-return": 2,
-        "indent"           : [1, 4],
-        "no-else-return"   : 1,
-        "semi"             : [1, "always"],
-        "space-unary-ops"  : 2
     }
 }
