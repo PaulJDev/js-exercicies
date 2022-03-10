@@ -25,7 +25,7 @@ const numeros = [1, 2, 3, 4, 5, 6];
       return numero < 4
     })
   o incluso
-     const numerosMenoresACuatro = numero => numero => numero < 4
+     const numerosMenoresACuatro = numero => numero < 4
   3. const numerosFiltrados = numeros.filter(numerosMenoresACuatro)
 ```
 
@@ -33,4 +33,4 @@ const numeros = [1, 2, 3, 4, 5, 6];
 
 ### Más información
 
-[MDN Web Docs](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/)
+[MDN Web Docs - Filter](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/)

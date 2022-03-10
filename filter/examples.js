@@ -1,7 +1,7 @@
 const arr = [-1, 0, 4, 2, 3, 4, 5, 6]
-const func = arr.filter((e) => e < 4)
+const func = arr.filter(e => e < 4)
 
-const arrow = arr.filter((e) => e < 4)
+const arrow = arr.filter(e => e < 4)
 
 console.log(func)
 

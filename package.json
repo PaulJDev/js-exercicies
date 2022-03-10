@@ -16,5 +16,13 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulJDev/js-exercicies.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PaulJDev/js-exercicies/issues"
+  },
+  "homepage": "https://github.com/PaulJDev/js-exercicies#readme"
 }
