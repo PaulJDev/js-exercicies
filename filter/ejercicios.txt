@@ -1,0 +1,60 @@
+//1. Filtra los elementos del primer array que no estén contenido en el segundo
+const arr1 = [1, 2, 3, 4]
+const arr2 = [2, 4, 1, 5]
+
+//Resultado: [ 3 ]
+
+//2. Consigue los números pares
+const arr = [1, 2, 3, 4]
+
+//Resultado: [ 2, 4 ]
+
+//3. consigue los números cuya posición en el array sea impar
+const arr4 = [2, 4, 1, 5]
+
+//Resultado: [ 4, 5 ]
+
+//4. Elimina los elementos nulos, undefined, vacíos y zeros del array
+const arr5 = [0, 1, 2, null, undefined, 5, 6, ""]
+
+//Resultado: [ 1, 2, 5, 6 ]
+
+//5. Consigue las persona cuya edad sea mayor o igual a 18
+const personas = [{ nombre: "Juan", edad: 17 }, { nombre: "Jose", edad: 18 }, { nombre: "Javier", edad: 21 }, { nombre: "Luís", edad: 15 }];
+
+/*Resultado: 
+[
+  { nombre: 'Jose', edad: 18 },
+  { nombre: 'Javier', edad: 21 }
+]*/
+
+//6. Consigue las personas cuyo nombre empiece por "J"
+const personas = [{ nombre: "Juan", edad: 17 }, { nombre: "Jose", edad: 18 }, { nombre: "Javier", edad: 21 }, { nombre: "Luís", edad: 15 }];
+
+/*Resultado:
+[
+  { nombre: 'Juan', edad: 17 },
+  { nombre: 'Jose', edad: 18 },
+  { nombre: 'Javier', edad: 21 }
+]*/
+
+//7. Consigue los trabajadores cuyo id se superior a 5 y si fecha de inicio sea en el año 2022
+const trabajadores = [{ id: 2, fechaInicio: "2021/02/25" }, { id: 6, fechaInicio: "2022/06/27" },
+                     { id: 9, fechaInicio: "2021/01/01" }, { id: 8 }];
+
+//Resultado: [ { id: 6, fechaInicio: '2022/06/27' } ]
+
+//8. Filtra los elementos cuya primera posición sea un número y su segunda un string
+const elementos = [[1, "Hola"], [true, "bool"], [2, null], [4, "mundo"], ["3", []]]
+
+//Resultado: [ [ 1, 'Hola' ], [ 4, 'mundo' ] ]
+
+//9. Filtra los números cuyo número actual sea el número anterior más uno. Es decir: 1, 2, 3, 4, 5. Pero no 1, 2, 4, 5. Solo es necesario conseguir la primera roptura
+const numeros = [0, 1, 2, 3, 4, 6, 7];
+
+//Resultado: [ 0, 1, 2, 3, 4 ]
+
+//10. Filtra los elementos cuyos números contenidos en ellos, sean los mismos que un elemento posterior. Cada elementos será un array de tres dígitos.
+const numeros = [[2, 1, 8], [2, 4, 5], [2, 6, 4], [1, 2, 8], [2, 4, 5]]
+
+//Resultado: [ [ 2, 1, 8 ], [ 2, 4, 5 ] ]
