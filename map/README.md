@@ -8,7 +8,7 @@ Este método devolverá un array con cada elemento modificado en base a una cond
 const numeros = [1, 2, 3, 4, 5, 6];
 
 //Números inferiores a cuatro
-const numerosMapeados = numeros.filter(numero => numero + 1)
+const numerosMapeados = numeros.map(numero => numero + 1)
 console.log(numerosMapeados); // [2, 3, 4, 5, 6, 7]
 ```
 

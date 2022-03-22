@@ -57,4 +57,4 @@ const numeros = [0, 1, 2, 3, 4, 6, 7];
 //10. Filtra los elementos cuyos números contenidos en ellos, sean los mismos que un elemento posterior. Cada elementos será un array de tres dígitos.
 const numeros = [[2, 1, 8], [2, 4, 5], [2, 6, 4], [1, 2, 8], [2, 4, 5]]
 
-//Resultado: [ [ 2, 1, 8 ], [ 2, 4, 5 ] ]
+//Resultado: [ [ 2, 1, 8 ], [ 2, 4, 5 ], [ 1, 2, 8 ], [ 2, 4, 5 ] ]
